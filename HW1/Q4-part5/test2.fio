@@ -1,0 +1,11 @@
+[global]
+ioengine=libaio
+direct=1
+iodepth=1
+numjobs=1
+
+[rand_read_64k]
+rw=read
+bs=64k
+size=1G
+

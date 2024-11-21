@@ -1,0 +1,13 @@
+[global]
+ioengine=libaio
+direct=1
+iodepth=1
+numjobs=1
+
+[rand_mix_16K]
+rw=randrw
+bs=16k
+rwmixread=30
+rwmixwrite=70
+size=1G
+
